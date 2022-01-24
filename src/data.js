@@ -42,3 +42,38 @@ export const categories = [
     title: 'Light jackets'
   }
 ]
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: '/img/popular/image1.webp'
+  },
+  {
+    id: 2,
+    img: '/img/popular/image2.webp'
+  },
+  {
+    id: 3,
+    img: '/img/popular/image3.webp'
+  },
+  {
+    id: 4,
+    img: '/img/popular/image4.webp'
+  },
+  {
+    id: 5,
+    img: '/img/popular/image5.webp'
+  },
+  {
+    id: 6,
+    img: '/img/popular/image6.webp'
+  },
+  {
+    id: 7,
+    img: '/img/popular/image7.webp'
+  },
+  {
+    id: 8,
+    img: '/img/popular/image8.webp'
+  },
+]

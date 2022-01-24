@@ -15,7 +15,7 @@ export default function Categories() {
     <Container>
       {
         categories.map(item => (
-          <CategoryItem key={item.key} item={item} />
+          <CategoryItem key={item.id} item={item} />
         ))
       }
     </Container>
