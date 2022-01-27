@@ -1,6 +1,7 @@
 import React from "react"
-import ProductList from "./pages/ProductList"
+import Product from "./pages/Product"
+// import ProductList from "./pages/ProductList"
 
 export default function App() {
-  return <ProductList />
+  return <Product />
 }
