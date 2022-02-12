@@ -6,14 +6,14 @@ import { mobile } from '../responsice'
 
 const Container = styled.div`
   height: 60px;
-  ${mobile({ height: '50px' })}
+  ${mobile({ height: '50px' })};
 `
 const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  ${mobile({ padding: '10px 0px' })}
+  ${mobile({ padding: '10px 10px' })}
 `
 const Left = styled.div`
   flex: 1;
@@ -30,8 +30,9 @@ const SearchContainer = styled.div`
   border: 0.5px solid lightgray;
   display: flex;
   align-items: center;
-  margin-left: 25px;
+  margin-left: 25px;  
   padding: 5px;
+  ${mobile({ marginLeft: '0px' })}
 `
 const Input = styled.input`
   border: none;

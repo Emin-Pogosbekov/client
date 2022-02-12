@@ -23,7 +23,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   row-gap: 40px;
   opacity: .9;
-
+  ${mobile({ width: '75%' })};
 `
 const Title = styled.h1`
   font-size: 24px;
